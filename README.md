@@ -1,5 +1,10 @@
 # wyoj-frontend
 
+### 根据后端接口快速生成前端接口调用
+```shell
+openapi --input http://localhost:8121/api/v2/api-docs --output ./generated --client axios
+```
+
 ## Project setup
 ```
 npm install
